@@ -16,4 +16,23 @@ body {
     display: flex;
     gap: 20px;
 }
-
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 05);
+}
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #222;
+}
+.white-text {
+    display: flex;
+    color: white;
+}
